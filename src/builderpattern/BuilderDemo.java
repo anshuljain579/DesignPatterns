@@ -9,6 +9,11 @@ public class BuilderDemo {
 
         director.constructSUV(carBuilder);
         Car car = carBuilder.getCar();
-        System.out.println(car);
+        System.out.println(STR."SUC Car  >> \{car}");
+
+
+        director.constructSportsCar(carBuilder);
+        Car sportsCar = carBuilder.getCar();
+        System.out.println(STR."Sports Car >> \{sportsCar}");
     }
 }
